@@ -1,0 +1,29 @@
+{
+  "name": "notes-app-server",
+  "version": "1.0.0",
+  "description": "Notes APP Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "NODE_JS",
+    "REST_API",
+    "mongodb"
+  ],
+  "author": "Yasas Sandeepa",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "helmet": "^5.1.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
